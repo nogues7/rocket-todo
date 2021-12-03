@@ -1,11 +1,11 @@
 {
-  "name": "rocket-todo",
+  "name": "desafio",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/server.js",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "test": "hest"
+    "dev": "nodemon",
+    "test": "jest"
   },
   "dependencies": {
     "cors": "^2.8.5",
